@@ -111,3 +111,33 @@ body {
     }
   }
   
+@media (min-width:320px) and (max-width: 374px) {
+  .uiContent{
+    margin-top: 60px;
+  }
+
+  .itemText {
+    font-size:12px;
+    text-align: center;
+  }
+}
+
+@media (min-width:375px) and (max-width: 425px) { 
+
+  .itemText {
+    font-size:14px;
+    text-align: center;
+  }
+}
+
+@media (min-width:426px) and (max-width: 768px) {
+  .uiContent{
+    margin-top: 60px;
+  }
+ }
+
+@media (min-width:769px) and (max-width: 1024px) { }
+
+@media (min-width:1025px) and (max-width: 1200px) { }
+
+@media (min-width:1201px) and (max-width: 1439px) { }
